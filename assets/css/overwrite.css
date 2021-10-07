@@ -1,0 +1,97 @@
+.logo2 {
+    filter: invert(1);
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#price .pricing-container ul {
+   padding: 2em;
+}
+
+#price .pricing-container .pricing-footer{
+    padding: 1em !important;
+       
+}
+
+#price .pricing-container .pricing-footer h3{
+    font-size: medium;
+    margin-bottom: 1em;
+       
+}
+
+.icon-box a{ 
+    color: white;
+}
+
+.caption h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+
+.cta{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 1em;
+    margin: auto;
+    margin-top: 2em
+}
+
+.textBlock{
+    background: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#home{
+    background: 
+        linear-gradient(0deg, rgba(86,248,250,1) 0%, rgba(186,138,35,1) 100%),
+        url(../img/IMG_7373.PNG);
+    background-blend-mode: multiply, overlay, color;
+    z-index: 10;
+    -webkit-box-shadow: 0px 5px 15px 7px rgba(0,0,0,0.5); 
+    box-shadow: 0px 5px 15px 7px rgba(0,0,0,0.5);
+
+}
+
+#contact .contact-info{
+    margin-top: 0px !important;
+    
+}
+
+#contact .contact-info .row {
+}
+
+#home .container {
+    text-align: center;
+  }
+
+  @media (min-width: 992px) {
+    #home{
+        background-position: top !important;
+    }
+    #contact .contact-info{
+        
+        box-shadow: 0px 5px 15px 7px rgba(0,0,0,0.2);
+    }
+
+    #contact {
+        background-color: crimson;
+        
+    }
+
+  }
+

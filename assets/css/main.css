@@ -529,8 +529,8 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 
 #home {
   position: relative;
-  padding: 120px 0px 120px 0px;
-  background: url(../img/banner.png);
+  padding: 100px 0px 120px 0px;
+  
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
